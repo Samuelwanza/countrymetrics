@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.Nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  background: var(--secondaryColor);
+  opacity: 0.8;
+  padding-left: 4px;
+  padding-right: 2px;
+  padding-bottom: 10px;
+}
+
+.navpartone {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.icon-bold {
+  font-weight: bold;
+}
+
+.navparttwo {
+  font-size: 20px;
+  width: 15vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  display: flex;
+}

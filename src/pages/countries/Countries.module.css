@@ -1,0 +1,83 @@
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+.countriesContainer {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+.map {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20vw;
+  gap: 20px;
+}
+
+.world {
+  font-family: bold;
+}
+
+.world > h2 {
+  font-size: 24px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+}
+
+.world > p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.continent {
+  width: 100%;
+  opacity: 1;
+  background: var(--primaryColor);
+  padding: 4px;
+}
+
+.continent > h3 {
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+.cardwrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  opacity: 0.8;
+}
+
+.card {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  text-align: right;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.cardBackground1 {
+  background-color: #c71c69; /* First set of cards */
+}
+
+.cardBackground2 {
+  background-color: rgb(187, 39, 125); /* Second set of cards */
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+}
