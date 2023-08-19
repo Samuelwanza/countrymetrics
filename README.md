@@ -13,6 +13,7 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Deployment](#Deployment)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
@@ -69,6 +70,10 @@ In order to run this project you need:
 - node js
 - any code editor but mostly use Vs Code and Sublime Text.
 
+### Deployment
+
+- [LIVE LINK](https://countrymetrics-cvl7-git-dev-kranko.vercel.app/)
+
 ### Setup
 
 Clone this repository to your desired folder:
@@ -114,7 +119,6 @@ To run linter tests, run the following command:
 ```
 
 ## 👥 Authors <a name="authors"></a>
-
 
 👤 **Samuel Wanza**
 
