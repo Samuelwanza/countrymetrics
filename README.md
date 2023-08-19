@@ -14,6 +14,7 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Deployment](#Deployment)
+  -[VIDEO LINK](#VIDEO)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
@@ -73,6 +74,9 @@ In order to run this project you need:
 ### Deployment
 
 - [LIVE LINK](https://countrymetrics-cvl7-git-dev-kranko.vercel.app/)
+### VIDEO
+
+- [VIDEO LINK](https://www.loom.com/share/ef032d15f9d04b268b9ff78de6807373?sid=2821bbde-60f3-44e0-89e7-d96cf649437c)
 
 ### Setup
 
