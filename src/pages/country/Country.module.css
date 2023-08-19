@@ -1,0 +1,91 @@
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+
+.topsection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10vw;
+  align-items: center;
+  gap: 10px;
+}
+
+.map {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20vw;
+  gap: 20px;
+}
+
+.world {
+  font-family: bold;
+}
+
+.world > h2 {
+  font-size: 24px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+}
+
+.world > p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.continent {
+  width: 100%;
+  opacity: 1;
+  background: var(--primaryColor);
+  padding: 4px;
+}
+
+.continent > h1 {
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.cardwrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  opacity: 0.8;
+}
+
+.card {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  text-align: right;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.cardBackground1 {
+  background-color: #c71c69; /* First set of cards */
+}
+
+.cardBackground2 {
+  background-color: rgb(187, 39, 125); /* Second set of cards */
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
